@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="250.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button mnemonicParsing="false" text="Driver" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button layoutX="310.0" layoutY="17.0" mnemonicParsing="false" text="Rider" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Label text="Creed Branton" GridPane.rowIndex="9">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label layoutX="10.0" layoutY="62.0" text="Brandon Davis" GridPane.rowIndex="3">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label layoutX="10.0" layoutY="22.0" text="Me (Gage Kettering)" GridPane.rowIndex="2">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label text="Zachary Greening" GridPane.rowIndex="4">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label text="Tyler Marlow" GridPane.rowIndex="5">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label text="Charles Taylor" GridPane.rowIndex="6">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label text="Professor Koufakou" GridPane.rowIndex="7">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label text="Chelsea Atkins" GridPane.rowIndex="8">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label text="Michael Scott" GridPane.rowIndex="10">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label text="Dwight Shrute" GridPane.rowIndex="11">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label text="Driver" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label text="Driver" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label text="Driver" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Label text="Rider" textFill="#070707" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Label text="Driver" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <Label text="Driver" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+      <GridPane GridPane.rowIndex="1">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label text="Friends">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+            </Label>
+         </children>
+      </GridPane>
+      <Label text="Type" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="204.0" text="Rider" textFill="#101011" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+      <Label layoutX="260.0" layoutY="276.0" text="Rider" textFill="#030303" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+      <Label layoutX="260.0" layoutY="312.0" text="Rider" textFill="#1a1a1b" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+      <Label alignment="TOP_LEFT" prefHeight="29.0" prefWidth="252.0" text="Friends List" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets left="100.0" />
+         </padding>
+      </Label>
+   </children>
+</GridPane>
